@@ -1,2 +1,3 @@
 # cli-yt
-Just an tiny scipt for ytfzf to open on startup for my personal use .
+
+## Just an tiny script for ytfzf to open on startup for my personal use .
