@@ -2,9 +2,6 @@
 
 figlet wlcm to yt.cli
 
-export COMMAND_NOT_FOUND_INSTALL_PROMPT=1
-
-
 date
 
 start="enter an title to "
@@ -21,4 +18,5 @@ echo $start
 
 ytfzf
 
-export COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+
+
