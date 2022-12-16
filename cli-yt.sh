@@ -2,6 +2,8 @@
 
 figlet wlcm to yt.cli
 
+export COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+
 
 date
 
@@ -18,3 +20,5 @@ echo $start
 #query=$(printf '%s' "$*" | tr ' ' '+' )
 
 ytfzf
+
+export COMMAND_NOT_FOUND_INSTALL_PROMPT=1
