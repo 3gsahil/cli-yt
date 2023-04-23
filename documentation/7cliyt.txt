@@ -1,0 +1,11 @@
+Note that you will need to have ytfzf, youtube-dl, and mpv installed on your system to use this script.
+
+This looks like a Bash script that uses ytfzf, youtube-dl, and mpv to search for and stream/download videos from YouTube.
+
+When executed, the script will prompt the user for search terms if none are provided, then prompt the user to choose between streaming or downloading the selected video.
+
+If the user chooses to download the video, they will be prompted to select a video quality before the download starts. The downloaded video will be saved to the current directory with the video's title and file extension as the filename.
+
+If the user chooses to stream the video, they will be prompted to select a video quality before the stream starts.
+
+It's important to note that this script relies on ytfzf, youtube-dl, and mpv being properly installed and configured on the system.
