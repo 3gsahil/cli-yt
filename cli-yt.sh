@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-figlet wlcm to yt.cli
+figlet wlcm to cli-yt
 
 date
 
