@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>YT-Cli</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="term-icon"
+      sizes="180x180"
+      href="./favicons/term.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicons/term.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicons/term.png"
+    />
+    <link rel="manifest" href="./favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="./favicons/term.png" />
+    <meta name="apple-mobile-web-app-title" content="Cmd Yt" />
+    <meta name="application-name" content="Cmd Yt" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Seaweed Script:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cmd-yt">
+      <div class="content">
+        <button class="download" id="download">
+          <div class="download-now">
+            Download Now:
+            <div id="release-tag"></div>
+          </div>
+        </button>
+        <button class="github" id="gitHub">
+          <div class="download-now">View on GitHub</div>
+        </button>
+        <div class="description">
+          Just and Command line youtube interface for terminal programmers.
+        </div>
+        <b class="heading">Cmd youtube</b>
+        <div class="3gsahil" id="3gsahil">By @3gsahil and co.</div>
+      </div>
+      <img class="preview-icon" alt="" src="./public/preview.png" />
+    </div>
+
+    <script src="./index.js"></script>
+    <script>
+      var download = document.getElementById("download");
+      if (download) {
+        download.addEventListener("click", function () {
+          window.open("https://github.com/3gsahil/ytcli/archive/refs/heads/main.zip");
+        });
+      }
+
+      var gitHub = document.getElementById("gitHub");
+      if (gitHub) {
+        gitHub.addEventListener("click", function () {
+          window.open("https://github.com/3gsahil/ytcli");
+        });
+      }
+
+      var 3gsahil = document.getElementById("3gsahil");
+      if (3gsahil) {
+        3gsahil.addEventListener("click", function () {
+          window.open("https://github.com/3gsahil");
+        });
+      }
+    </script>
+  </body>
+</html>
