@@ -1,12 +1,14 @@
 #!/usr/bin/bash
 
-figlet wlcm to cli-yt
+figlet CLI - YT
 
-date
+
 
 start="enter an title to "
 
-figlet group no. 4
+figlet An Project by group no. 4
+
+date
 
 echo $start
 
@@ -17,6 +19,5 @@ echo $start
 #query=$(printf '%s' "$*" | tr ' ' '+' )
 
 ytfzf
-
 
 
